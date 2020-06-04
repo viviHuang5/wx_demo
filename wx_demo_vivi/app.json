@@ -1,0 +1,61 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/category/index",
+    "pages/goods_list/index",
+    "pages/goods_detail/index",
+    "pages/cart/index",
+    "pages/collect/index",
+    "pages/order/index",
+    "pages/search/index",
+    "pages/user/index",
+    "pages/feedback/index",
+    "pages/login/index",
+    "pages/anth/index",
+    "pages/pay/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#112DA3",
+    "navigationBarTitleText": "vivi`shop",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#112DA3",
+    "backgroundColor": "",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/icons/index.png",
+        "selectedIconPath": "/icons/index_active.png"
+      },
+      {
+        "pagePath": "pages/category/index",
+        "text": "分类",
+        "iconPath": "/icons/fuwu.png",
+        "selectedIconPath": "/icons/fuwu_active.png"
+      },
+      {
+        "pagePath": "pages/category/index",
+        "text": "购物车",
+        "iconPath": "/icons/cart.png",
+        "selectedIconPath": "/icons/cart_active.png"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "text": "我的",
+        "iconPath": "/icons/mine.png",
+        "selectedIconPath": "/icons/mine_active.png"
+      }
+    ]
+  },
+  
+    
+  
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

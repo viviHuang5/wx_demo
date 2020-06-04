@@ -1,0 +1,19 @@
+/**app.wxss**/
+@import '/styles/iconfont.wxss';
+
+/* 不支持通配符 */
+page,view,text,swiper,swiper-item,image,navigator{
+   padding:0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+/* 修改主题颜色，通过变量 */
+page{
+    /* 定义主题颜色 */
+    --themeColor:#112DA3;
+}
+image{
+    width: 100%;
+}
+
