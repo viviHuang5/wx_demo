@@ -40,7 +40,7 @@
         "selectedIconPath": "/icons/fuwu_active.png"
       },
       {
-        "pagePath": "pages/category/index",
+        "pagePath": "pages/cart/index",
         "text": "购物车",
         "iconPath": "/icons/cart.png",
         "selectedIconPath": "/icons/cart_active.png"
